@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400&subset=cyrillic");
 
 html {
-  color: #333;
+  color: #222;
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,7 +25,7 @@ section h2 {
 }
 
 nav {
-  background-color: #0078b4;
+  background-color: #0068c4;
 }
 
 nav .brand-logo img {
@@ -38,7 +38,7 @@ header {
     url("img/bgmain.jpeg");
   background-size: cover;
   background-position: center;
-  color: #eee;
+  color: #fff;
   padding-top: 8rem;
   min-height: 100vh;
   padding-bottom: 3rem;
@@ -65,25 +65,25 @@ header #heading {
   font-size: 16px;
 }
 
-.adv-list {
+.advantage-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
   /* flex-wrap: wrap; */
 }
-.adv-list .adv {
+.advantage-list .advantage {
   text-align: center;
   width: 24%;
   margin-bottom: 3rem;
 }
 
-.adv-list .adv .fas {
+.advantage-list .advantage .fas {
   font-size: 5rem;
 
   color: #0078b4;
 }
-.adv-list .adv div {
+.advantage-list .advantage div {
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -144,10 +144,10 @@ section#contact {
 }
 
 @media only screen and (max-width: 900px) {
-  .adv-list {
+  .advantage-list {
     flex-wrap: wrap;
   }
-  .adv-list .adv {
+  .advantage-list .advantage {
     width: 48%;
     margin-bottom: 1.5rem;
   }
@@ -157,7 +157,7 @@ section#contact {
 }
 
 @media only screen and (max-width: 500px) {
-  .adv-list .adv {
+  .advantage-list .advantage {
     width: 200px;
   }
   #header #heading {
@@ -174,7 +174,7 @@ section#contact {
   nav .brand-logo img {
     height: 56px;
   }
-  .adv-list .adv {
+  .advantage-list .advantage {
     width: 90%;
   }
 
