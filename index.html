@@ -19,9 +19,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper container ">
+    <ul id="dropdown1" class="dropdown-content blue-text text-darken-4">
+      <li>
+        <a><i class="fas fa-phone fa-flip-horizontal"></i>+7 702 947 7272</a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="mailto:name@email.com"
+          ><i class="far fa-envelope"></i>email@example.com</a
+        >
+      </li>
+    </ul>
+    <div class="navbar-fixed ">
+      <nav class="blue darken-4">
+        <div class="nav-wrapper container">
           <a href="#" class="brand-logo"><img src="img/logo.png" alt=""/></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
             ><i class="fas fa-bars"></i
@@ -33,7 +44,12 @@
             <li><a href="#about-us">О компании</a></li>
             <li><a href="#product-section">Продукты</a></li>
             <li><a href="#why-us">Почему мы?</a></li>
-            <li><a href="#contact">Контакты</a></li>
+            <li style="width: 250px">
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1"
+                >Свяжитесь с нами <i class="fas fa-arrow-down"> </i
+              ></a>
+            </li>
+            <li></li>
           </ul>
         </div>
       </nav>
@@ -58,7 +74,7 @@
 
         <a
           href="#services"
-          class="waves-effect waves-light blue hoverable btn-large darken-1"
+          class="waves-effect waves-light blue darken-4 hoverable btn-large "
           >Узнать больше <i class="fas fa-arrow-right right"></i
         ></a>
       </div>
@@ -110,15 +126,17 @@
           </div>
         </div>
       </section>
-      <section id="about-us" class="scrollspy">
+
+
+      <section id="about" class="scrollspy blue darken-1">
         <div id="team">
-          <!-- <h3 class="center-align">Наша Команда</h3> -->
+          <h2 class="center-align">О Компании</h2>
           <div class="container">
             <div class="row">
-              <div class="col s12 m8 offset-m4 ">
-                <div class="card z-depth-4 blue darken-2">
-                  <div class="card-content white-text">
-                    <span class="card-title center-align">О Компании</span>
+              <div class="col s12 ">
+                <div class="card z-depth-4 grey lighten-4">
+                  <div class="card-content grey-text text-darken-4">
+                    <!-- <span class="card-title center-align">О Компании</span> -->
                     <p>
                       Наша компания входит в группу компаний «СОБi», является
                       международной и имеет представительства в России, Украине
@@ -139,12 +157,40 @@
                     </p>
                   </div>
 
-                  <div class="card-action">
-                    <a href="#contact">Контакты</a>
-                  </div>
+                  <!-- <div class="card-action">
+                    <a href="#product-section">Продукты</a>
+                  </div> -->
                 </div>
               </div>
             </div>
+            <ul>
+                <li>
+                  <div class="img"><img src="img/1.png" alt="" /></div>
+                  <div class="title">15 ЛЕТ ОПЫТА</div>
+                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
+                </li>
+                <li>
+                  <div class="img"><img src="img/2.png" alt="" /></div>
+                  <div class="title">15 ЛЕТ ОПЫТА</div>
+                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
+                </li>
+                <li>
+                  <div class="img"><img src="img/3.png" alt="" /></div>
+                  <div class="title">15 ЛЕТ ОПЫТА</div>
+                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
+                </li>
+                <li>
+                  <div class="img"><img src="img/4.png" alt="" /></div>
+                  <div class="title">15 ЛЕТ ОПЫТА</div>
+                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
+                </li>
+                <li>
+                  <div class="img"><img src="img/5.png" alt="" /></div>
+                  <div class="title">15 ЛЕТ ОПЫТА</div>
+                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
+                </li>
+                
+              </ul>
           </div>
         </div>
       </section>
@@ -157,7 +203,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -184,7 +235,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg"  alt="1c"/>
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -212,7 +268,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -238,7 +299,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -266,7 +332,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -292,7 +363,12 @@
               <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
+                    <img
+                      class="activator"
+                      height="300"
+                      src="img/1c.jpeg"
+                      alt="1c"
+                    />
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4"
@@ -315,7 +391,7 @@
                 </div>
               </div>
 
-              <div class="col s12 m6 l4">
+              <!-- <div class="col s12 m6 l4">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" height="300" src="img/1c.jpeg" alt="1c" />
@@ -325,7 +401,6 @@
                       >1C: Управление торговлей
                       <i class="fas fa-ellipsis-v right"></i
                     ></span>
-                    <!-- <p><a href="#">This is a link</a></p> -->
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"
@@ -353,7 +428,6 @@
                     <span class="card-title activator grey-text text-darken-4"
                       >1C: Розница <i class="fas fa-ellipsis-v right"></i
                     ></span>
-                    <!-- <p><a href="#">This is a link</a></p> -->
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"
@@ -380,7 +454,6 @@
                       >1C: Управление производственным предприятием
                       <i class="fas fa-ellipsis-v right"></i
                     ></span>
-                    <!-- <p><a href="#">This is a link</a></p> -->
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"
@@ -408,7 +481,6 @@
                       >1C: Управление нашей фирмой
                       <i class="fas fa-ellipsis-v right"></i
                     ></span>
-                    <!-- <p><a href="#">This is a link</a></p> -->
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"
@@ -437,7 +509,6 @@
                         class="fas fa-ellipsis-v right"
                       ></i
                     ></span>
-                    <!-- <p><a href="#">This is a link</a></p> -->
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"
@@ -453,21 +524,21 @@
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
 
-            <div class="center-align">
+            <!-- <div class="center-align">
               <a
                 href="#header"
-                class="link-next hoverable blue btn-floating btn-large waves-effect waves-light darken-1"
+                class="link-next hoverable blue btn-floating btn-large waves-effect waves-light darken-4"
                 ><i class="fas fa-arrow-down"></i
               ></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
 
-      <section id="why-us" class="scrollspy">
+      <section id="why-us" class="scrollspy blue darken-1 white-text">
         <div class="container">
           <h2>Почему выбирают нас</h2>
           <div class="advantage-list">
@@ -493,7 +564,7 @@
         </div>
       </section>
 
-      <section id="contact" class="scrollspy">
+      <!-- <section id="contact" class="scrollspy">
         <div class="container">
           <h2>Контакты</h2>
 
@@ -503,7 +574,7 @@
                 <i class="fas fa-envelope "></i>example@mail.com
               </div>
               <div class="phone">
-                <i class="fas fa-phone fa-rotate-90"></i>+777 777 7777
+                <i class="fas fa-phone fa-flip-horizontal"></i>+7  702 947 7272
               </div>
             </div>
             <div class="col s12 m6">
@@ -520,14 +591,14 @@
 
                   <div class="row">
                     <div class="input-field col s12">
-                      <i class="fas fa-phone fa-rotate-90 prefix"></i>
+                      <i class="fas fa-phone fa-flip-horizontal prefix"></i>
                       <input id="phone" type="number" class="validate" />
                       <label for="phone">Телефон</label>
                     </div>
                   </div>
 
                   <button
-                    class="btn waves-effect waves-light blue darken-1"
+                    class="btn waves-effect waves-light blue darken-4"
                     type="submit"
                     name="action"
                   >
@@ -539,20 +610,23 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <footer class="page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <!-- <h5 class="white-text">Footer Content</h5>
+            <h5 class="white-text">Наши Контакты</h5>
             <p class="grey-text text-lighten-4">
-              You can use rows and columns here to organize your footer content.
-            </p> -->
+              email.@example.com
+            </p>
+            <p class="grey-text text-lighten-4">
+              7 702 947 7272
+            </p>
           </div>
           <div class="col l4 offset-l2 s12">
-            <!-- <h5 class="white-text">Links</h5> -->
+            <h5 class="white-text">Навигация</h5>
             <ul>
               <li>
                 <a href="#services" class="grey-text text-lighten-3"
@@ -574,9 +648,7 @@
                   >Почему мы?</a
                 >
               </li>
-              <li>
-                <a href="#contact" class="grey-text text-lighten-3">Контакты</a>
-              </li>
+              <li></li>
             </ul>
           </div>
         </div>
@@ -584,7 +656,6 @@
       <div class="footer-copyright">
         <div class="container">
           © 2019 Copyright
-          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
         </div>
       </div>
     </footer>
@@ -604,6 +675,15 @@
 
         var sidenav = document.querySelectorAll(".sidenav");
         var instances = M.Sidenav.init(sidenav);
+
+        var dropOptions = {
+          alignment: "right",
+          hover: true,
+          coverTrigger: false
+        };
+
+        var dropdown = document.querySelectorAll(".dropdown-trigger");
+        var instances = M.Dropdown.init(dropdown, dropOptions);
       });
     </script>
   </body>

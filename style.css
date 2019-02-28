@@ -1,8 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&subset=cyrillic");
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  src: url("fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 500;
+  src: url("fonts/Gilroy-ExtraBold.otf");
+}
 
 html {
   color: #222;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gilroy", sans-serif;
 }
 
 * {
@@ -18,22 +28,26 @@ section h2 {
   margin-bottom: 4rem;
   font-size: 2.7rem;
   text-align: center;
+  font-weight: 500;
 }
 
 .navbar-fixed {
   height: 0;
 }
-
-nav {
-  background-color: #0068c4;
-}
-
 nav .brand-logo img {
   width: auto;
   height: 64px;
 }
 
-header {
+nav .dropdown-trigger .fas {
+  font-size: 0.8rem;
+}
+
+#dropdown1 .fas {
+  font-size: 1rem;
+}
+
+#header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("img/bgmain.jpeg");
   background-size: cover;
@@ -44,25 +58,16 @@ header {
   padding-bottom: 3rem;
 }
 
-header #heading {
+#header #heading {
   font-size: 4.7rem;
   margin-bottom: 3.5rem;
-  font-weight: 300;
-  /* margin-top: 4rem; */
+  font-weight: 500;
 }
 #secondary-heading {
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 4rem;
-}
-
-#about-us {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("img/team.jpeg");
-  background-size: cover;
-  background-position: center;
-  font-size: 16px;
 }
 
 .advantage-list {
@@ -80,12 +85,13 @@ header #heading {
 
 .advantage-list .advantage .fas {
   font-size: 5rem;
+  margin-bottom: 2rem;
 
-  color: #0078b4;
+  /* color: #fff; */
 }
 .advantage-list .advantage div {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
 }
 
 #services {
@@ -93,11 +99,11 @@ header #heading {
 }
 #services .fas {
   font-size: 10rem;
-  color: #0078b4;
+  color: #0d47a1;
   margin: 0 5rem;
 }
 #services h4 {
-  color: #0078b4;
+  color: #0d47a1;
 }
 #services .m4 {
   text-align: right;
@@ -113,7 +119,7 @@ header #heading {
 }
 
 .page-footer {
-  background-color: #0078b4;
+  background-color: #0d47a1;
 }
 
 section#contact {
@@ -139,8 +145,32 @@ section#contact {
 }
 #contact .email .fas,
 #contact .phone .fas {
-  color: #0078b4;
+  color: #0d47a1;
   margin-right: 2rem;
+}
+
+#about {
+  color: #fff;
+}
+
+#about ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  font-size: 17px;
+}
+#about ul li {
+  text-align: center;
+  margin: 1rem 0;
+  width: 280px;
+}
+#about ul li .title {
+  font-weight: 500;
+}
+
+#about .card {
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -157,11 +187,9 @@ section#contact {
 }
 
 @media only screen and (max-width: 500px) {
-  .advantage-list .advantage {
-    width: 200px;
-  }
   #header #heading {
     font-size: 4rem;
+    font-weight: 500;
   }
   #header {
     padding-top: 5rem;
@@ -175,7 +203,7 @@ section#contact {
     height: 56px;
   }
   .advantage-list .advantage {
-    width: 90%;
+    width: 70%;
   }
 
   #contact .email,
