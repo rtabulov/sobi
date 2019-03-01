@@ -4,40 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Соби Казахстан</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>СОБи Казахстан</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/aos.css" />
   </head>
   <body>
-    <ul id="dropdown1" class="dropdown-content blue-text text-darken-4">
-      <li>
-        <a><i class="fas fa-phone fa-flip-horizontal"></i>+7 702 947 7272</a>
-      </li>
-      <li class="divider"></li>
-      <li>
-        <a href="mailto:name@email.com"
-          ><i class="far fa-envelope"></i>email@example.com</a
-        >
-      </li>
-    </ul>
     <div class="navbar-fixed ">
       <nav class="blue darken-4">
         <div class="nav-wrapper container">
           <a href="#" class="brand-logo"><img src="img/logo.png" alt=""/></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger left"
             ><i class="fas fa-bars"></i
           ></a>
 
@@ -47,23 +27,24 @@
             <li><a href="#about">О компании</a></li>
             <li><a href="#product-section">Продукты</a></li>
             <li><a href="#why-us">Почему мы?</a></li>
-            <li style="width: 250px">
-              <a class="dropdown-trigger" href="#!" data-target="dropdown1"
-                >Свяжитесь с нами <i class="fas fa-arrow-down"> </i
-              ></a>
+            <li>
+              <a>+7 702 947 7272</a>
             </li>
-            <li></li>
           </ul>
         </div>
       </nav>
     </div>
 
     <ul class="sidenav" id="mobile-demo">
+      <!-- <li class="disabled"><a></a></li> -->
+      <li>
+        <a href="/"><img src="img/logo-white.jpg" alt="" height="40px"/></a>
+      </li>
       <li><a href="#services">Как мы работаем</a></li>
       <li><a href="#about">О компании</a></li>
       <li><a href="#product-section">Продукты</a></li>
       <li><a href="#why-us">Почему мы?</a></li>
-      <li><a href="#contact">Контакты</a></li>
+      <li><a href="tel:+77029477272">+7 702 947 7272</a></li>
     </ul>
 
     <header id="header" class="scrollspy">
@@ -86,12 +67,14 @@
     <main>
       <section id="services" class="scrollspy">
         <div class="container">
-          <h2>Как мы работаем</h2>
+          <h2 data-aos="fade-up">Как мы работаем</h2>
           <div class="row work">
-            <div class="col s12 m4"><i class="fas fa-sign-in-alt"></i></div>
+            <div class="col s12 m4">
+              <i class="fas fa-sign-in-alt" data-aos="fade-up"></i>
+            </div>
             <div class="col s12 m8">
-              <h4>Внедрение</h4>
-              <p>
+              <h4 data-aos="fade-up">Внедрение</h4>
+              <p data-aos="fade-up">
                 Внедрение Системы Автоматизации Бизнеса представляет собой
                 комплекс работ специалистов, результатом которых является ввод в
                 промышленную эксплуатацию автоматизированной системы учета,
@@ -100,11 +83,11 @@
             </div>
 
             <div class="col s12 m4">
-              <i class="fas fas fa-headset"></i>
+              <i data-aos="fade-up" class="fas fas fa-headset"></i>
             </div>
             <div class="col s12 m8">
-              <h4>Сопровождение</h4>
-              <p>
+              <h4 data-aos="fade-up">Сопровождение</h4>
+              <p data-aos="fade-up">
                 Отслеживание выхода обновлений конфигураций. Обновление типовых
                 и доработанных конфигураций, включая Управление производственным
                 предприятием. Консультирование по вопросам работы конфигурации.
@@ -114,10 +97,12 @@
               </p>
             </div>
 
-            <div class="col s12 m4"><i class="fas fa-info"></i></div>
+            <div class="col s12 m4">
+              <i data-aos="fade-up" class="fas fa-info"></i>
+            </div>
             <div class="col s12 m8">
-              <h4>Что такое 1С?</h4>
-              <p>
+              <h4 data-aos="fade-up">Что такое 1С?</h4>
+              <p data-aos="fade-up">
                 <b>1C: ИТС </b> - это комплексная технологическая, методическая
                 и консультационная поддержка пользователей программ «1C:
                 Предприятие» на регулярной основе, которую регулярно оказывает
@@ -130,74 +115,98 @@
         </div>
       </section>
 
-
       <section id="about" class="scrollspy blue darken-1">
-        <div id="team">
-          <h2 class="center-align">О Компании</h2>
-          <div class="container">
-            <div class="row">
-              <div class="col s12 ">
-                <div class="card z-depth-4 grey lighten-4">
-                  <div class="card-content grey-text text-darken-4">
-                    <!-- <span class="card-title center-align">О Компании</span> -->
-                    <p>
-                      Наша компания входит в группу компаний «СОБi», является
-                      международной и имеет представительства в России, Украине
-                      и Азербайджане. Компания «Системы обслуживания бизнеса»
-                      (СОБi) является одной из крупнейших интеграторов учетных
-                      систем на базе САБ. Структура нашего предприятия включает:
-                      2 центра разработки; Круглосуточный центр сопровождения;
-                      Центр проектного внедрения. Служба методологической
-                      поддержки и постановки бухгалтерского учета; Отдел
-                      постановки и сопровождение управленческого учета;
-                      Информационно-технический отдел; Интегрированное
-                      подразделение юридического обслуживания. Основные
-                      характеристики: Оптимальная организационная структура,
-                      направленная на эффективное управление проектами
-                      автоматизации и сопровождения систем учета. Авторские
-                      методики проведения анализа и подготовка решения,
-                      управление проектами.
-                    </p>
-                  </div>
+        <h2 class="center-align">О Компании</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 ">
+              <div class="card z-depth-4 grey lighten-4">
+                <div class="card-content grey-text text-darken-4">
+                  <!-- <span class="card-title center-align">О Компании</span> -->
+                  <p>
+                    Наша компания входит в группу компаний «СОБi», является
+                    международной и имеет представительства в России, Украине и
+                    Азербайджане. Компания «Системы обслуживания бизнеса» (СОБi)
+                    является одной из крупнейших интеграторов учетных систем на
+                    базе САБ. Структура нашего предприятия включает: 2 центра
+                    разработки; Круглосуточный центр сопровождения; Центр
+                    проектного внедрения. Служба методологической поддержки и
+                    постановки бухгалтерского учета; Отдел постановки и
+                    сопровождение управленческого учета;
+                    Информационно-технический отдел; Интегрированное
+                    подразделение юридического обслуживания. Основные
+                    характеристики: Оптимальная организационная структура,
+                    направленная на эффективное управление проектами
+                    автоматизации и сопровождения систем учета. Авторские
+                    методики проведения анализа и подготовка решения, управление
+                    проектами.
+                  </p>
+                </div>
 
-                  <!-- <div class="card-action">
+                <!-- <div class="card-action">
                     <a href="#product-section">Продукты</a>
                   </div> -->
-                </div>
               </div>
             </div>
-            <ul>
-                <li>
-                  <div class="img"><img src="img/1.png" alt="" /></div>
-                  <div class="title">15 ЛЕТ ОПЫТА</div>
-                  <div class="text">в сфере эффективного обслуживания бизнеса</div>
-                </li>
-                <li>
-                  <div class="img"><img src="img/2.png" alt="" /></div>
-                  <div class="title">Более 300</div>
-                  <div class="text">Сертифицированных специалистов</div>
-                </li>
-                <li>
-                  <div class="img"><img src="img/3.png" alt="" /></div>
-                  <div class="title">5 СТРАН МИРА </div>
-                  <div class="text">территория нашей работы</div>
-                </li>
-                <li>
-                  <div class="img"><img src="img/4.png" alt="" /></div>
-                  <div class="title"></div>
-                  <div class="text"> <b>2000</b> рабочих мест, которые обслуживаются в режиме 24/7</div>
-                </li>
-                <li>
-                  <div class="img"><img src="img/5.png" alt="" /></div>
-                  <div class="title"></div>
-                  <div class="text">5 центров разработки</div>
-                </li>
-                
-                
-              </ul>
+          </div>
+          <ul id="facts">
+            <li>
+              <div class="img"><img src="img/1.png" alt="" /></div>
+              <div class="title">15 ЛЕТ ОПЫТА</div>
+              <div class="text">
+                в сфере эффективного обслуживания бизнеса
+              </div>
+            </li>
+            <li>
+              <div class="img"><img src="img/2.png" alt="" /></div>
+              <div class="title">Более 300</div>
+              <div class="text">Сертифицированных специалистов</div>
+            </li>
+            <li>
+              <div class="img"><img src="img/3.png" alt="" /></div>
+              <div class="title">5 СТРАН МИРА</div>
+              <div class="text">территория нашей работы</div>
+            </li>
+            <li>
+              <div class="img"><img src="img/4.png" alt="" /></div>
+              <div class="title"></div>
+              <div class="text">
+                <b>2000</b> рабочих мест, которые обслуживаются в режиме 24/7
+              </div>
+            </li>
+            <li>
+              <div class="img"><img src="img/5.png" alt="" /></div>
+              <div class="title"></div>
+              <div class="text">5 центров разработки</div>
+            </li>
+          </ul>
+
+          <h4 class="center-align small-font">
+            Наша компания входит в международную группу компаний "СОБи", которая
+            занимает одно из лидирующих позицией в регионах:
+          </h4>
+          <div class="row facts2">
+            <div class="col s12 m6 valign-wrapper">
+              <img src="img/b2img1.png" alt="">
+              <span>Входит в 10-ку крупнейших интеграторов в Украине</span>
+            </div>
+            <div class="col s12 m6 valign-wrapper">
+              <img src="img/b2img2.png" alt="">
+              <span>Входит в 10-ку крупнейших интеграторов в Украине</span>
+            </div>
+            <div class="col s12 m6 valign-wrapper">
+              <img src="img/b2img3.png" alt="">
+              <span>Входит в 10-ку крупнейших интеграторов в Украине</span>
+            </div>
+            <div class="col s12 m6 valign-wrapper">
+              <img src="img/b2img4.png" alt="">
+              <span>Входит в 10-ку крупнейших интеграторов в Украине</span>
+            </div>
           </div>
         </div>
       </section>
+
+
       <section id="product-section" class="scrollspy">
         <div class="container">
           <h2>Линейка Решений</h2>
@@ -638,9 +647,7 @@
                 >
               </li>
               <li>
-                <a href="#about" class="grey-text text-lighten-3"
-                  >О компании</a
-                >
+                <a href="#about" class="grey-text text-lighten-3">О компании</a>
               </li>
               <li>
                 <a href="#product-section" class="grey-text text-lighten-3"
@@ -663,10 +670,12 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/materialize.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+
         var scrollspy = document.querySelectorAll(".scrollspy");
 
         let options1 = {
