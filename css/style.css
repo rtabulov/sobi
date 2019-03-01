@@ -39,6 +39,10 @@ section h2 {
 #mobile-demo {
   padding-top: 3rem;
 }
+#mobile-demo .fas, #mobile-demo .far{
+  margin: 0;
+}
+
 
 .navbar-fixed {
   height: 0;
@@ -107,7 +111,7 @@ nav .brand-logo img {
 }
 #services .m4 {
   text-align: right;
-}
+} 
 
 #services .row {
   display: flex;
@@ -118,12 +122,19 @@ nav .brand-logo img {
   margin-bottom: 2rem;
 }
 
-.page-footer {
-  background-color: #0d47a1;
-}
 
-section#contact {
-  background-color: #ddd;
+
+section#why-us {
+  background: linear-gradient(rgba(0, 10, 20, 0.9), rgba(0, 10, 20, 0.9)),
+    url("/img/bg1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+section#about {
+  background: linear-gradient(rgba(0, 10, 20, 0.9), rgba(0, 10, 20, 0.9)),
+    url("/img/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 #about #facts li img {
