@@ -53,14 +53,14 @@ nav .brand-logo img {
 }
 
 #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/bgmain.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/img/bgmain3.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding-top: 8rem;
-  min-height: 100vh;
-  padding-bottom: 3rem;
+  padding-top: 6rem;
+  /* min-height: 100vh; */
+  padding-bottom: 5rem;
 }
 
 #header #heading {
@@ -135,6 +135,11 @@ section#about {
     url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
+}
+
+#about .paragraph {
+  font-size: 1.35rem;
+  text-align: center;
 }
 
 #about #facts li img {
