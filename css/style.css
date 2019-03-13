@@ -100,8 +100,8 @@ nav .brand-logo img {
 #services {
   font-size: 18px;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
     ),
     url("/img/bg4.jpeg");
   background-size: 100% auto;
@@ -175,29 +175,6 @@ h4.small-font {
   margin-right: 2rem;
 }
 
-#contact .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#contact .input-field {
-  display: flex;
-  align-items: center;
-}
-
-.email,
-.phone {
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  margin-bottom: 2.5rem;
-}
-#contact .email .fas,
-#contact .phone .fas {
-  color: #0d47a1;
-  margin-right: 2rem;
-}
-
 #about {
   color: #fff;
 }
@@ -214,7 +191,6 @@ h4.small-font {
   width: 280px;
 }
 #about ul li .title {
-  /* margin-top: 1.5rem; */
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -239,13 +215,6 @@ h4.small-font {
   font-size: 1.2rem;
 }
 
-#footer form {
-  color: white;
-}
-
-.input-field input[type=text]:focus + label {
-  color: white;
-}
 
 @media only screen and (max-width: 900px) {
   #header {
