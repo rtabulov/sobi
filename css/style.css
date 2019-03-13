@@ -136,7 +136,7 @@ section#why-us {
   background-position: center;
 }
 section#about {
-  background: linear-gradient(rgba(0, 10, 20, 0.9), rgba(0, 10, 20, 0.9)),
+  background: linear-gradient(rgba(0, 10, 20, 0.7), rgba(0, 10, 20, 0.7)),
     url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
@@ -208,9 +208,21 @@ h4.small-font {
 #about ul li .img {
   margin-bottom: 1.5rem;
 }
-#about .card {
-  font-size: 17px;
-  height: 350px;
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-list .card {
+  height: 385px;
+  width: 290px;
+  margin: 30px 10px;
+}
+
+.product-list .card .card-image {
+  height: 260px;
 }
 
 #footer {
