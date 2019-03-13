@@ -136,10 +136,20 @@ section#why-us {
   background-position: center;
 }
 section#about {
-  background: linear-gradient(rgba(0, 10, 20, 0.8), rgba(0, 10, 20, 0.8)),
+  background: linear-gradient(rgba(0, 10, 20, 0.9), rgba(0, 10, 20, 0.9)),
     url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
+  /* color: black; */
+}
+
+#whiteback {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url("/img/bg4.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding-top: 1.5rem;
 }
 
 #about .paragraph {
