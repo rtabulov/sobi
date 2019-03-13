@@ -52,8 +52,7 @@ nav .brand-logo img {
 }
 
 #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url("/img/bgmain3.jpg");
+  background-image:url("/img/bgmain3.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -99,11 +98,7 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url("/img/bg4.jpeg");
+  background-image:url("/img/bg4.jpeg");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
@@ -130,22 +125,19 @@ nav .brand-logo img {
 }
 
 section#why-us {
-  background: linear-gradient(rgba(0, 10, 20, 0.8), rgba(0, 10, 20, 0.8)),
-    url("/img/bg2.jpeg");
+  background-image: url("/img/bg2.jpeg");
   background-size: cover;
   background-position: center;
 }
 section#about {
-  background: linear-gradient(rgba(0, 10, 20, 0.7), rgba(0, 10, 20, 0.7)),
-    url("/img/bg1.jpeg");
+  background-image:  url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
   /* color: black; */
 }
 
 #whiteback {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)),
-    url("/img/bg5.jpeg");
+  background-image: url("/img/bg5.jpeg");
   background-size: cover;
   background-position: center;
   color: black;
