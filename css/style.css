@@ -12,7 +12,7 @@
 
 html {
   color: #222;
-  font-family: "Gilroy", 'Roboto', sans-serif;
+  font-family: "Gilroy", "Roboto", sans-serif;
 }
 
 * {
@@ -35,14 +35,13 @@ section h2 {
   /* line-height: 28px; */
 }
 
-
 #mobile-demo {
   padding-top: 3rem;
 }
-#mobile-demo .fas, #mobile-demo .far{
+#mobile-demo .fas,
+#mobile-demo .far {
   margin: 0;
 }
-
 
 .navbar-fixed {
   height: 0;
@@ -100,6 +99,14 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("/img/bg4.jpeg");
+  background-size: 100% auto;
+  /* background-repeat: no-repeat; */
+  background-position: top;
 }
 #services .fas {
   font-size: 10rem;
@@ -111,7 +118,7 @@ nav .brand-logo img {
 }
 #services .m4 {
   text-align: right;
-} 
+}
 
 #services .row {
   display: flex;
@@ -121,8 +128,6 @@ nav .brand-logo img {
 #services .row .col {
   margin-bottom: 2rem;
 }
-
-
 
 section#why-us {
   background: linear-gradient(rgba(0, 10, 20, 0.8), rgba(0, 10, 20, 0.8)),
@@ -157,7 +162,7 @@ h4.small-font {
   margin-bottom: 2rem;
 }
 
-.facts2{
+.facts2 {
   font-size: 1.3rem;
 }
 
@@ -169,8 +174,6 @@ h4.small-font {
 .facts2 img {
   margin-right: 2rem;
 }
-
-
 
 #contact .row {
   display: flex;
@@ -211,11 +214,37 @@ h4.small-font {
   width: 280px;
 }
 #about ul li .title {
+  /* margin-top: 1.5rem; */
   font-weight: 500;
+  text-transform: capitalize;
 }
 
+#about ul li .img {
+  margin-bottom: 1.5rem;
+}
 #about .card {
   font-size: 17px;
+}
+
+#footer {
+  font-size: 16px;
+}
+
+#footer h5,
+#footer h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#footer h6 {
+  font-size: 1.2rem;
+}
+
+#footer form {
+  color: white;
+}
+
+.input-field input[type=text]:focus + label {
+  color: white;
 }
 
 @media only screen and (max-width: 900px) {
