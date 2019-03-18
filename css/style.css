@@ -52,7 +52,7 @@ nav .brand-logo img {
 }
 
 #header {
-  background-image:url("/img/bgmain3.jpg");
+  background-image: url("/img/bgmain3.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -98,7 +98,7 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
-  background-image:url("/img/bg4.jpeg");
+  background-image: url("/img/bg4.jpeg");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
@@ -130,7 +130,7 @@ section#why-us {
   background-position: center;
 }
 section#about {
-  background-image:  url("/img/bg1.jpeg");
+  background-image: url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
   /* color: black; */
@@ -229,7 +229,6 @@ h4.small-font {
 #footer h6 {
   font-size: 1.2rem;
 }
-
 
 @media only screen and (max-width: 900px) {
   #header {
