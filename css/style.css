@@ -52,7 +52,7 @@ nav .brand-logo img {
 }
 
 #header {
-  background-image: url("/img/bgmain3.jpg");
+  background-image: url("/img/bgmain3.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -98,7 +98,7 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
-  background-image: url("/img/bg4.jpeg");
+  background-image: url("/img/bg4.webp");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
@@ -125,19 +125,19 @@ nav .brand-logo img {
 }
 
 section#why-us {
-  background-image: url("/img/bg2.jpeg");
+  background-image: url("/img/bg2.webp");
   background-size: cover;
   background-position: center;
 }
 section#about {
-  background-image: url("/img/bg1.jpeg");
+  background-image: url("/img/bg1.webp");
   background-size: cover;
   background-position: center;
   /* color: black; */
 }
 
 #whiteback {
-  background-image: url("/img/bg5.jpeg");
+  background-image: url("/img/bg5.webp");
   background-size: cover;
   background-position: center;
   color: black;
@@ -147,12 +147,6 @@ section#about {
 #about .paragraph {
   font-size: 1.35rem;
   text-align: center;
-}
-
-#about #facts li img {
-  border-radius: 40%;
-  width: 170px;
-  height: 170px;
 }
 #about #facts {
   font-size: 1.2rem;
@@ -266,10 +260,5 @@ h4.small-font {
   }
   .advantage-list .advantage {
     width: 70%;
-  }
-
-  #contact .email,
-  #contact .phone {
-    font-size: 2rem;
   }
 }
