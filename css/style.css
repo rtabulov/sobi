@@ -52,7 +52,7 @@ nav .brand-logo img {
 }
 
 #header {
-  background-image: url("/img/bgmain3.webp");
+  background-image: url("/img/bgmain3.jpeg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -98,7 +98,7 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
-  background-image: url("/img/bg4.webp");
+  background-image: url("/img/bg4.jpeg");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
@@ -125,19 +125,19 @@ nav .brand-logo img {
 }
 
 section#why-us {
-  background-image: url("/img/bg2.webp");
+  background-image: url("/img/bg2.jpeg");
   background-size: cover;
   background-position: center;
 }
 section#about {
-  background-image: url("/img/bg1.webp");
+  background-image: url("/img/bg1.jpeg");
   background-size: cover;
   background-position: center;
   /* color: black; */
 }
 
 #whiteback {
-  background-image: url("/img/bg5.webp");
+  background-image: url("/img/bg5.jpeg");
   background-size: cover;
   background-position: center;
   color: black;
