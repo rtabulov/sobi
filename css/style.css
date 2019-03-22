@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Gilroy";
   font-weight: 400;
-  src: url("/fonts/Gilroy-Light.otf");
+  src: url("../fonts/Gilroy-Light.otf");
 }
 
 @font-face {
   font-family: "Gilroy";
   font-weight: 500;
-  src: url("/fonts/Gilroy-ExtraBold.otf");
+  src: url("../fonts/Gilroy-ExtraBold.otf");
 }
 
 html {
@@ -52,7 +52,7 @@ nav .brand-logo img {
 }
 
 #header {
-  background-image: url("/img/bgmain3.jpeg");
+  background-image: url("../img/bgmain3.jpeg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -98,7 +98,7 @@ nav .brand-logo img {
 
 #services {
   font-size: 18px;
-  background-image: url("/img/bg4.jpeg");
+  background-image: url("../img/bg4.jpeg");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
@@ -125,19 +125,19 @@ nav .brand-logo img {
 }
 
 section#why-us {
-  background-image: url("/img/bg2.jpeg");
+  background-image: url("../img/bg2.jpeg");
   background-size: cover;
   background-position: center;
 }
 section#about {
-  background-image: url("/img/bg1.jpeg");
+  background-image: url("../img/bg1.jpeg");
   background-size: cover;
   background-position: center;
   /* color: black; */
 }
 
 #whiteback {
-  background-image: url("/img/bg5.jpeg");
+  background-image: url("../img/bg5.jpeg");
   background-size: cover;
   background-position: center;
   color: black;
